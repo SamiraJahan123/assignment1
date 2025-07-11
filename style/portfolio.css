@@ -48,14 +48,14 @@ nav{
 
 main {
     max-width: 1140px;
-    margin:0 auto ;
+    margin:0 auto;
 }
 .section-items{
     display: flex;
     justify-content: center;
-    margin:116px ;
+     margin:116px 0 116px 0 ; 
     /* justify-content: space-between; */
-    gap: 50px;
+    gap: 200px;
 
 
 }
@@ -72,5 +72,25 @@ main {
 }
 .image{
     border-radius: 48px;
+}
+.div-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+     margin-bottom: 5px;
+}
+.div-description{
+   font-size: 20px;
+   color: darkgray;
+}
+.div-contents{
+    display: flex;
+    justify-content: space-around;
+}
+.background{
+    background-color:#ebf5fb;
+    border-radius: 50px;
+    padding: 50px 80px;
+    text-align: center;
 }
 
